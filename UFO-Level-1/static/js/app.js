@@ -34,7 +34,7 @@ function buildTable(data) {
 function handleClick() {
 
   // Grab the #datetime value from the filter with d3.select().property()
-  const date = d3.select("#datatime").property("value");
+  const date = d3.select("#datetime").property("value");
   // store the tableData into a local variable called filteredData
   let filteredData = tableData;
 
